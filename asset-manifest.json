@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Glossary/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/Glossary/static/js/main.263757f4.chunk.js",
+    "main.js.map": "/Glossary/static/js/main.263757f4.chunk.js.map",
+    "runtime-main.js": "/Glossary/static/js/runtime-main.19c0f343.js",
+    "runtime-main.js.map": "/Glossary/static/js/runtime-main.19c0f343.js.map",
+    "static/js/2.7c8fbc68.chunk.js": "/Glossary/static/js/2.7c8fbc68.chunk.js",
+    "static/js/2.7c8fbc68.chunk.js.map": "/Glossary/static/js/2.7c8fbc68.chunk.js.map",
+    "static/js/3.f46f04b7.chunk.js": "/Glossary/static/js/3.f46f04b7.chunk.js",
+    "static/js/3.f46f04b7.chunk.js.map": "/Glossary/static/js/3.f46f04b7.chunk.js.map",
+    "index.html": "/Glossary/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/Glossary/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.7c8fbc68.chunk.js.LICENSE.txt": "/Glossary/static/js/2.7c8fbc68.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/Glossary/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19c0f343.js",
+    "static/js/2.7c8fbc68.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.263757f4.chunk.js"
+  ]
+}
