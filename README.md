@@ -1,3 +1,3 @@
 # Glossary
 
-A paersonal reference website, geared for learning.
+A personal reference website, geared for learning.
