@@ -5,6 +5,9 @@ import Accordion from './components/Accordion';
 // import appealtoauthority from './img/appealtoauthority.png';
 import appealtoauthority from './img/appealtoauthority.jpg';
 import bandwagon from './img/bandwagon.jpg';
+import strawman from './img/strawman.jpg';
+import adhominem from './img/adhominem.jpg';
+import appealtonature from './img/appealtonature.jpg';
 
 function App() {
   return (
@@ -45,16 +48,19 @@ function App() {
             </div>
             <div label='Ad Hominem'>
               <p>
+                <img src={adhominem} alt="Ad Hominem" />
 
               </p>
             </div>
             <div label='Strawman'>
               <p>
+                <img src={strawman} alt="Strawman" />
 
               </p>
             </div>
             <div label='Appeal to Nature'>
               <p>
+                <img src={appealtonature} alt="Appeal to Nature" />
 
               </p>
             </div>
