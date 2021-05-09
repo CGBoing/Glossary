@@ -40,7 +40,7 @@ class AccordionSection extends Component {
                     <div
                         style={{
                             // background: '#6db65b',
-                            'border-top': '1px solid #8f8f68',
+                            // 'border-top': '1px solid #8f8f68',
                             marginTop: 10,
                             padding: '10px 20px',
                         }

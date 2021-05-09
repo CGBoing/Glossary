@@ -2,6 +2,9 @@ import React from 'react';
 import Tabs from "./components/Tabs";
 import "./App.css";
 import Accordion from './components/Accordion';
+// import appealtoauthority from './img/appealtoauthority.png';
+import appealtoauthority from './img/appealtoauthority.jpg';
+import bandwagon from './img/bandwagon.jpg';
 
 function App() {
   return (
@@ -14,61 +17,46 @@ function App() {
             <div label="Student's t test">
               <p>
                 <i>Coming soon.</i>
-                <strong>Common Name:</strong> American Alligator
-          </p>
-              <p>
-                <strong>Distribution:</strong> Texas to North Carolina, US
-          </p>
-              <p>
-                <strong>Endangered Status:</strong> Currently Not Endangered
-          </p>
+              </p>
             </div>
             <div label='Analysis of Variance'>
               <p>
                 <i>Coming soon.</i>
-                <strong>Common Name:</strong> Chinese Alligator
-          </p>
-              <p>
-                <strong>Distribution:</strong> Eastern China
-          </p>
-              <p>
-                <strong>Endangered Status:</strong> Critically Endangered
-          </p>
+              </p>
             </div>
           </Accordion>
         </div>
         <div label="Fallacies">
           <h2>Logical fallacies in argumentation</h2>
-          These are the most common fallacious arguments you should <i>usually</i> avoid.
-          <br />
-          <br />
-          <i>Coming soon.</i>
+          These are the most common fallacious arguments you should <i>usually</i> avoid. These are adapted from <a href="https://yourlogicalfallacyis.com">YourLogicalFallacyIs.com</a>.
           <br />
           <br />
           <Accordion>
-            <div label="Student's t test">
+            <div label="Appeal to Authority">
               <p>
-                <i>Coming soon.</i>
-                <strong>Common Name:</strong> American Alligator
-          </p>
-              <p>
-                <strong>Distribution:</strong> Texas to North Carolina, US
-          </p>
-              <p>
-                <strong>Endangered Status:</strong> Currently Not Endangered
-          </p>
+                <img src={appealtoauthority} alt="Appeal to Authority" />
+              </p>
             </div>
-            <div label='Analysis of Variance'>
+            <div label='Argument from Popularity / Bandwagon'>
               <p>
-                <i>Coming soon.</i>
-                <strong>Common Name:</strong> Chinese Alligator
-          </p>
+                <img src={bandwagon} alt="Bandwagon" />
+
+              </p>
+            </div>
+            <div label='Ad Hominem'>
               <p>
-                <strong>Distribution:</strong> Eastern China
-          </p>
+
+              </p>
+            </div>
+            <div label='Strawman'>
               <p>
-                <strong>Endangered Status:</strong> Critically Endangered
-          </p>
+
+              </p>
+            </div>
+            <div label='Appeal to Nature'>
+              <p>
+
+              </p>
             </div>
           </Accordion>
         </div>
