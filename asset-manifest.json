@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Glossary/static/css/main.fd3b60f5.chunk.css",
-    "main.js": "/Glossary/static/js/main.0441d02a.chunk.js",
-    "main.js.map": "/Glossary/static/js/main.0441d02a.chunk.js.map",
+    "main.js": "/Glossary/static/js/main.8b07b5c4.chunk.js",
+    "main.js.map": "/Glossary/static/js/main.8b07b5c4.chunk.js.map",
     "runtime-main.js": "/Glossary/static/js/runtime-main.833437a5.js",
     "runtime-main.js.map": "/Glossary/static/js/runtime-main.833437a5.js.map",
     "static/js/2.fe1a2179.chunk.js": "/Glossary/static/js/2.fe1a2179.chunk.js",
@@ -11,12 +11,14 @@
     "static/js/3.79c75548.chunk.js.map": "/Glossary/static/js/3.79c75548.chunk.js.map",
     "index.html": "/Glossary/index.html",
     "static/css/main.fd3b60f5.chunk.css.map": "/Glossary/static/css/main.fd3b60f5.chunk.css.map",
-    "static/js/2.fe1a2179.chunk.js.LICENSE.txt": "/Glossary/static/js/2.fe1a2179.chunk.js.LICENSE.txt"
+    "static/js/2.fe1a2179.chunk.js.LICENSE.txt": "/Glossary/static/js/2.fe1a2179.chunk.js.LICENSE.txt",
+    "static/media/appealtoauthority.cc16505d.jpg": "/Glossary/static/media/appealtoauthority.cc16505d.jpg",
+    "static/media/bandwagon.1472ee67.jpg": "/Glossary/static/media/bandwagon.1472ee67.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.833437a5.js",
     "static/js/2.fe1a2179.chunk.js",
     "static/css/main.fd3b60f5.chunk.css",
-    "static/js/main.0441d02a.chunk.js"
+    "static/js/main.8b07b5c4.chunk.js"
   ]
 }
