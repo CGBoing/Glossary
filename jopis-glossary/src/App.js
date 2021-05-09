@@ -1,6 +1,7 @@
 import React from 'react';
 import Tabs from "./components/Tabs";
 import "./App.css";
+import Accordion from './components/Accordion';
 
 function App() {
   return (
@@ -9,16 +10,67 @@ function App() {
       <Tabs>
         <div label="Statistics">
           <h2>Basic statistical concepts</h2>
-          {/* <br />
-          <br /> */}
-          <i>Coming soon.</i>
+          <Accordion>
+            <div label="Student's t test">
+              <p>
+                <i>Coming soon.</i>
+                <strong>Common Name:</strong> American Alligator
+          </p>
+              <p>
+                <strong>Distribution:</strong> Texas to North Carolina, US
+          </p>
+              <p>
+                <strong>Endangered Status:</strong> Currently Not Endangered
+          </p>
+            </div>
+            <div label='Analysis of Variance'>
+              <p>
+                <i>Coming soon.</i>
+                <strong>Common Name:</strong> Chinese Alligator
+          </p>
+              <p>
+                <strong>Distribution:</strong> Eastern China
+          </p>
+              <p>
+                <strong>Endangered Status:</strong> Critically Endangered
+          </p>
+            </div>
+          </Accordion>
         </div>
         <div label="Fallacies">
           <h2>Logical fallacies in argumentation</h2>
-          These are the most common fallacius arguments you should <i>usually</i> avoid.
+          These are the most common fallacious arguments you should <i>usually</i> avoid.
           <br />
           <br />
           <i>Coming soon.</i>
+          <br />
+          <br />
+          <Accordion>
+            <div label="Student's t test">
+              <p>
+                <i>Coming soon.</i>
+                <strong>Common Name:</strong> American Alligator
+          </p>
+              <p>
+                <strong>Distribution:</strong> Texas to North Carolina, US
+          </p>
+              <p>
+                <strong>Endangered Status:</strong> Currently Not Endangered
+          </p>
+            </div>
+            <div label='Analysis of Variance'>
+              <p>
+                <i>Coming soon.</i>
+                <strong>Common Name:</strong> Chinese Alligator
+          </p>
+              <p>
+                <strong>Distribution:</strong> Eastern China
+          </p>
+              <p>
+                <strong>Endangered Status:</strong> Critically Endangered
+          </p>
+            </div>
+          </Accordion>
         </div>
         <div label="About">
           <h2>What am I looking at?</h2>
