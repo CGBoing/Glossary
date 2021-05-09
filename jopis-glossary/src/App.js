@@ -39,28 +39,50 @@ function App() {
               <p>
                 <img src={appealtoauthority} alt="Appeal to Authority" />
               </p>
+              <p>
+                Pointing out to the claimant as a powerful figure is not sufficient to declare a claim as true.<br/>
+                Even if he/she happens to be an expert on the matter, the proper way to back up any claim is to present the actual evidence.
+                </p>
             </div>
             <div label='Argument from Popularity / Bandwagon'>
               <p>
                 <img src={bandwagon} alt="Bandwagon" />
-
+                <p>
+                  <i>
+                    "A million flies can't be wrong!"
+                  </i>
+                </p>
+                <p>
+                  The truth of an argument has no bearing on how many people believe it.</p>
               </p>
             </div>
             <div label='Ad Hominem'>
               <p>
                 <img src={adhominem} alt="Ad Hominem" />
-
+                <p>
+                  <i>
+                    "He/she is such a globalist anyway!"
+                  </i>
+                </p>
+                <p>
+                  Usually used to sidestep the actual argument by focusing on who said it.</p>
               </p>
             </div>
             <div label='Strawman'>
               <p>
                 <img src={strawman} alt="Strawman" />
+                <p>
+                  Caricaturizing the opponent's position and attacking this made-up misrepresentation instead of the original argument.
+                  </p>
 
               </p>
             </div>
             <div label='Appeal to Nature'>
               <p>
                 <img src={appealtonature} alt="Appeal to Nature" />
+                <p>
+                  {/* Declaring something as natural/unnatural has no bearing on. */}
+                  </p>
 
               </p>
             </div>
@@ -78,7 +100,7 @@ function App() {
           <i>Jopi Mikkonen</i>
         </div>
       </Tabs>
-    </div>
+    </div >
   );
 }
 
